@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tensorflow = "==1.15"
+ipykernel = "*"
+numpy = "*"
+pandas = "==0.25.3"
+seaborn = "*"
+matplotlib = "*"
+keras = "==2.3.1"
+opencv-python = "*"
+imageio = "*"
+sklearn = "*"
+h5py = "==2.10.0"
+nibabel = "*"
+nltk = "*"
+transformers = "*"
+stanfordnlp = "*"
+bllipparser = "*"
+svgling = "*"
+negbio = "*"
+textblob = "*"
+
+[requires]
+python_version = "3.6"
